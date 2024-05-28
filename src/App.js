@@ -49,8 +49,8 @@ function App()
   {
     let fetchData = async () =>
     {
-      // let resp = await axios.get(process.env.REACT_APP_BACKENDURL + "doctors");
-      let resp = await axios.get("http://localhost:3002/doctors");
+      let resp = await axios.get(process.env.REACT_APP_BACKENDURL + "doctors");
+      // let resp = await axios.get("http://localhost:3002/doctors");
       let data = await resp.data;
       // console.log('from json')
       // console.log(data);
