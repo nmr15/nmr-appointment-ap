@@ -43,7 +43,7 @@ const SelectDoctor = (props) =>
         
         {isVisible && (
           <Link to="/selectdatetime">
-            <button className="btn btn-main btn-lg mx-auto" style={{ display: "" }}>
+            <button className="btn btn-blue btn-lg mx-auto" style={{ display: "" }}>
               Select Date and Time
             </button>
           </Link>

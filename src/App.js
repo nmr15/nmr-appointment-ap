@@ -75,7 +75,7 @@ function App()
         <Route path='completeappointment' element={<CompleteAppointment apptInfo={apptData} changeHandler={changeHandler} />} />
         <Route path='newappointment' element={<NewAppointment doctorinfo={doctorsData} />} />
         <Route path='createdappointment' element={<SuccessAppointment />} />
-        <Route path='ourdoctors' element={<DoctorsList />} />
+        <Route path='ourdoctors' element={<DoctorsList doctorinfo={doctorsData} />} />
         <Route path='doctordashboard' element={<DashboardDoctor />} />
         <Route path='patientdashboard' element={<DashboardPatient />} />
         <Route path='appt' element={<ViewAppointments />} />

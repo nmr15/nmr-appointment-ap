@@ -24,7 +24,7 @@ const SelectDateTime = (props) =>
         </div>
         
         <Link to="/completeappointment">
-          <button className="btn btn-main btn-lg">Next</button>
+          <button className="btn btn-blue btn-lg">Next</button>
         </Link>
       </div>
     </>
